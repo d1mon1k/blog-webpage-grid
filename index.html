@@ -5,117 +5,201 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="source/style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Главная</title>
 </head>
 
 <body>
-  <div class="wrapper">
-    <header class="header">
-      <a href="#" class="header__logo">
-        <img src="/img/header/logo.png" alt="header__ logo">
-      </a>
-      <nav class="header__menu menu">
-        <ul class="menu__list">
-          <li class="menu__item"><a href="#" class="menu__link menu__link--active">Главная</a></li>
-          <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
-          <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
-          <li class="menu__item"><a href="#" class="menu__link">Поиск</a></li>
+  <header class="header">
+    <div class="container">
+      <div class="header__grid">
+        <a href="#" class="header__logo">
+          <img src="/img/header/logo.svg" alt="">
+        </a>
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#" class="menu__link menu__link--active">Главная</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Поиск</a></li>
+          </ul>
+        </nav>
+        <div class="header__phone phone">
+          <a href="#" class="phone__link"><img src="/img/header/phone.svg" alt="">+7 (987) 887-87</a>
+        </div>
+        <div class="header__menu-burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="banner" style="background-image: url(/img/wallpaper.jpg)"></div>
+    <div class="container">
+      <section class="main__grid">
+        <ul class="main__content">
+          <li class="blog-post">
+            <a href="#" class="blog-post__category">Категория 1</a>
+            <h3 class="blog-post__title title-blog"><a href="#" class="blog-post__link">Управление ИТ-активами – скучная
+                рутина или творческая
+                задача?</a></h3>
+            <p class="blog-post__text">
+              Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по
+              ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не
+              принёс отчёт, решив проверить, нужен ли он вообще.
+            </p>
+            <time class="blog-post__time">13 дек 2020 </time>
+          </li>
+          <li class="blog-post">
+            <a href="#" class="blog-post__category">Категория 1</a>
+            <h3 class="blog-post__title title-blog"><a href="#" class="blog-post__link">Управление ИТ-активами – скучная
+                рутина или
+                творческая задача?</a></h3>
+            <p class="blog-post__text">
+              Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по
+              ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не
+              принёс отчёт, решив проверить, нужен ли он вообще.
+            </p>
+            <time class="blog-post__time">13 дек 2020 </time>
+          </li>
+          <li class="blog-post blog-post--small">
+            <a href="#" class="blog-post__category blog-post__category--t">Категория
+              1</a>
+            <h3 class="blog-post__title title-blog"><a href="#" class="blog-post__link">ITAM&SAMDay – самая настоящая
+                удача!</a></h3>
+            <time class="blog-post__time blog-post__time--bottom">13 дек 2020</time>
+          </li>
+          <li class="blog-post blog-post--small" style="background-image: url(/img/main/01.jpg)">
+            <a href="#" class="blog-post__category blog-post__category--t">Очень длинная категория 2</a>
+            <h3 class="blog-post__title title-blog"><a href="#" class="blog-post__link">Управление ИТ-активами – скучная
+                рутина или
+                творческая задача?</a></h3>
+            <time class="blog-post__time blog-post__time--bottom">13 дек 2020</time>
+          </li>
+          <li class="blog-post">
+            <a href="#" class="blog-post__category">Категория 1</a>
+            <h3 class="blog-post__title title-blog"><a href="#" class="blog-post__link">Управление ИТ-активами – скучная
+                рутина или
+                творческая задача слово
+                слово
+                и
+                еще длинное слово после чего ...</a></h3>
+            <time class="blog-post__time">13 дек 2020 </time>
+          </li>
+          <li class="blog-post">
+            <a href="#" class="blog-post__category">Категория 1</a>
+            <h3 class="blog-post__title title-blog"><a href="#" class="blog-post__link">ITAM&SAMDay – самая настоящая
+                удача!</a></h3>
+            <time class="blog-post__time">13 дек 2020 </time>
+          </li>
+          <li class="blog-post">
+            <a href="#" class="blog-post__category">Категория 1</a>
+            <h3 class="blog-post__title title-blog"><a href="#" class="blog-post__link">Управление ИТ-активами – скучная
+                рутина или
+                творческая задача?</a></h3>
+            <p class="blog-post__text">
+              Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по
+              ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не
+              принёс отчёт, решив проверить, нужен ли он вообще.
+            </p>
+            <time class="blog-post__time">13 дек 2020 </time>
+          </li>
+          <li class="blog-post blog-post--small">
+            <a href="#" class="blog-post__category blog-post__category--t">Очень длинная категория 2</a>
+            <h3 class="blog-post__title title-blog"><a href="#" class="blog-post__link">ITAM&SAMDay – самая настоящая
+                удача!</a></h3>
+            <time class="blog-post__time blog-post__time--bottom">13 дек 2020</time>
+          </li>
+          <li class="blog-post blog-post--small" style="background-image: url(/img/main/02.jpg)">
+            <a href="#" class="blog-post__category blog-post__category--t">Категория
+              1</a>
+            <h3 class="blog-post__title title-blog"><a href="#" class="blog-post__link">Управление ИТ-активами – скучная
+                рутина или
+                творческая задача?</a></h3>
+            <time class="blog-post__time blog-post__time--bottom">13 дек 2020</time>
+          </li>
+          <li class="blog-post">
+            <a href="#" class="blog-post__category">Категория 1</a>
+            <h3 class="blog-post__title title-blog"><a href="#" class="blog-post__link">Управление ИТ-активами – скучная
+                рутина или
+                творческая задача слово
+                слово
+                и
+                еще длинное слово после чего ...</a></h3>
+            <time class="blog-post__time">13 дек 2020 </time>
+          </li>
+          <li class="blog-post">
+            <a href="#" class="blog-post__category">Категория 1</a>
+            <h3 class="blog-post__title title-blog"><a href="#" class="blog-post__link">ITAM&SAMDay – самая настоящая
+                удача!</a></h3>
+            <time class="blog-post__time">13 дек 2020 </time>
+          </li>
         </ul>
-      </nav>
-      <div class="header__phone phone">
-        <a href="#" class="phone__link"><img src="/img/header/phone.png" alt="header__phone">+7 (987) 887-87</a>
+        <ul class="main__pagination pagination">
+          <li class="pagination__item"><a href="#" class="pagination__link pagination__link--active">1</a></li>
+          <li class="pagination__item"><a href="#" class="pagination__link">2</a></li>
+          <li class="pagination__item"><a href="#" class="pagination__link">3</a></li>
+          <li class="pagination__item"><a href="#" class="pagination__link">4</a></li>
+        </ul>
+        <aside class="sidebar">
+          <section class="sidebar__news news">
+            <h3 class="news__title title-blog">Популярные новости</h3>
+            <ul class="news__column">
+              <li class="news__item">
+                <h3 class="news__article"><a href="#" class="blog-post__link">ITAM&SAMDay – самая настоящая удача!</a>
+                </h3>
+                <time class="news__time">13 дек 2020</time>
+              </li>
+              <li class="news__item">
+                <h3 class="news__article"><a href="#" class="blog-post__link">Секреты лицензирования. Всё, что вы хотели
+                    знать про Microsoft,
+                    SAP и Oracle,
+                    но
+                    не знали, у кого спросить ...</a></h3>
+                <time class="news__time">10 дек 2020</time>
+              </li>
+              <li class="news__item">
+                <h3 class="news__article"><a href="#" class="blog-post__link">Менеджмент XXI века. Надо ли готовиться к
+                    изменениям или мы давно
+                    уже должны
+                    были
+                    измениться?</a></h3>
+                <time class="news__time">5 дек 2020</time>
+              </li>
+            </ul>
+          </section>
+          <section class="sidebar__email-subscribe email-subscribe">
+            <h3 class="email-subscribe__title title-blog">Подписка на рассылку</h3>
+            <form action="#" class="subscribe__form sub-form">
+              <input type="email" placeholder="Email@gmail.com" class="email-subscribe__input">
+              <button class="email-subscribe__button"><span>Подписаться</span><img src="/img/main/subscribe.svg"
+                  alt="subscribe__arrow"></button>
+            </form>
+          </section>
+        </aside>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__column">
+        <a href="#" class="footer__logo">
+          <img src="/img/header/logo.svg" alt="logo">
+        </a>
+        <nav class="footer__nav menu">
+          <ul class="menu__list menu__list--justify">
+            <li class="menu__item"><a href="#" class="menu__link menu__link--active">Главная</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Поиск</a></li>
+          </ul>
+        </nav>
+        <p class="footer__organization">ООО “Организация” 2020. Все права защищены</p>
       </div>
-      <div class="header__menu-burger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </header>
-    <section class="wallpaper">
-      <div class="wallpaper__img" style="background-image: url(/img/wallpaper.jpg)"></div>
-    </section>
-    <main class="main">
-      <div class="main__content">
-        <section class="block-category">
-          <div class="block-category__headline"><a href="#" class="block-category__link">Категория 1</a></div>
-          <h2 class="block-category__title">Управление ИТ-активами – скучная рутина или творческая задача?</h2>
-          <p class="block-category__text">
-            Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по
-            ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не
-            принёс отчёт, решив проверить, нужен ли он вообще.
-          </p>
-          <div class="block-category__time">13 дек 2020 </div>
-        </section>
-        <section class="block-category">
-          <div class="block-category__headline"><a href="#" class="block-category__link">Категория 1</a></div>
-          <h2 class="block-category__title">Управление ИТ-активами – скучная рутина или творческая задача?</h2>
-          <p class="block-category__text">
-            Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по
-            ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не
-            принёс отчёт, решив проверить, нужен ли он вообще.
-          </p>
-          <div class="block-category__time">13 дек 2020 </div>
-        </section>
-        <section class="block-category block-category--small">
-          <div class="block-category__headline"><a href="#" class="block-category__link">Категория 1</a></div>
-          <h2 class="block-category__title">ITAM&SAMDay – самая настоящая удача!</h2>
-          <div class="block-category__time">13 дек 2020 </div>
-        </section>
-        <section class="block-category block-category--small">
-          <div class="block-category__headline"><a href="#" class="block-category__link">Очень длинная категория 2</a>
-          </div>
-          <h2 class="block-category__title">Управление ИТ-активами – скучная рутина или творческая задача?</h2>
-          <div class="block-category__time">13 дек 2020 </div>
-        </section>
-        <section class="block-category">
-          <div class="block-category__headline"><a href="#" class="block-category__link">Категория 1</a></div>
-          <h2 class="block-category__title">Управление ИТ-активами – скучная рутина или творческая задача слово слово и
-            еще длинное слово после чего ...</h2>
-          <div class="block-category__time">13 дек 2020 </div>
-        </section>
-        <section class="block-category">
-          <div class="block-category__headline"><a href="#" class="block-category__link">Категория 1</a></div>
-          <h2 class="block-category__title">ITAM&SAMDay – самая настоящая удача!</h2>
-          <div class="block-category__time">13 дек 2020 </div>
-        </section>
-        <section class="block-category">
-          <div class="block-category__headline"><a href="#" class="block-category__link">Категория 1</a></div>
-          <h2 class="block-category__title">Управление ИТ-активами – скучная рутина или творческая задача?</h2>
-          <p class="block-category__text">
-            Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по
-            ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не
-            принёс отчёт, решив проверить, нужен ли он вообще.
-          </p>
-          <div class="block-category__time">13 дек 2020 </div>
-        </section>
-        <section class="block-category block-category--small">
-          <div class="block-category__headline"><a href="#" class="block-category__link">Категория 1</a></div>
-          <h2 class="block-category__title">ITAM&SAMDay – самая настоящая удача!</h2>
-          <div class="block-category__time">13 дек 2020 </div>
-        </section>
-        <section class="block-category block-category--small">
-          <div class="block-category__headline"><a href="#" class="block-category__link">Очень длинная категория 2</a>
-          </div>
-          <h2 class="block-category__title">Управление ИТ-активами – скучная рутина или творческая задача?</h2>
-          <div class="block-category__time">13 дек 2020 </div>
-        </section>
-        <section class="block-category">
-          <div class="block-category__headline"><a href="#" class="block-category__link">Категория 1</a></div>
-          <h2 class="block-category__title">Управление ИТ-активами – скучная рутина или творческая задача слово слово и
-            еще длинное слово после чего ...</h2>
-          <div class="block-category__time">13 дек 2020 </div>
-        </section>
-        <section class="block-category">
-          <div class="block-category__headline"><a href="#" class="block-category__link">Категория 1</a></div>
-          <h2 class="block-category__title">ITAM&SAMDay – самая настоящая удача!</h2>
-          <div class="block-category__time">13 дек 2020 </div>
-        </section>
-      </div>
-      <aside class="sidebar"></aside>
-    </main>
-    <footer class="footer"></footer>
-  </div>
+    </div>
+  </footer>
 </body>
 
 </html>
